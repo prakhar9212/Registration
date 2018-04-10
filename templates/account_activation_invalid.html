@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% bootstrap_messages %}
+
+
+
+{% block content %}
+  <p>The confirmation link was invalid, possibly because it has already been used.</p>
+{% endblock %}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<div style="max-width: 500px;margin: auto;">
+{% bootstrap_messages %}
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}Simple is Better Than Complex{% endblock %}</title>
+  </head>
+  <body>
+    <header>
+      <h1>REGISTRATION SYSTEM</h1>
+      {% if user.is_authenticated %}
+        <a href="{% url 'logout' %}">logout</a>
+      {% else %}
+        <a href="{% url 'login' %}">login</a> / <a href="{% url 'signup' %}">signup</a>
+      {% endif %}
+      <hr>
+    </header>
+    <main>
+      {% block content %}
+      {% endblock %}
+    </main>
+  </body>
+</div>
+</html>
