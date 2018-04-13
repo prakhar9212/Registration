@@ -1,15 +1,14 @@
 
 
-pip install certifi==2017.11.5
+certifi==2017.11.5
+Django==1.11.7
+django-allauth==0.34.0
+django-bootstrap3
 
-pip install Django==1.11.7
-pip install django-allauth==0.34.0
-pip install django-bootstrap3
-
-pip install oauthlib==2.0.6
-pip install python-openid==2.2.5
-pip install pytz==2017.3
-pip install requests==2.18.4
-pip install requests-oauthlib==0.8.0
-pip install urllib3==1.22
+oauthlib==2.0.6
+python-openid==2.2.5
+pytz==2017.3
+requests==2.18.4
+requests-oauthlib==0.8.0
+urllib3==1.22
 
