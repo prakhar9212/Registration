@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="43">
+          <list size="45">
             <item index="0" class="java.lang.String" itemvalue="django-concurrency" />
             <item index="1" class="java.lang.String" itemvalue="pyes" />
             <item index="2" class="java.lang.String" itemvalue="html5lib" />
@@ -48,6 +48,8 @@
             <item index="40" class="java.lang.String" itemvalue="pylint" />
             <item index="41" class="java.lang.String" itemvalue="pytz" />
             <item index="42" class="java.lang.String" itemvalue="Pillow" />
+            <item index="43" class="java.lang.String" itemvalue="oauthlib" />
+            <item index="44" class="java.lang.String" itemvalue="django-allauth" />
           </list>
         </value>
       </option>
