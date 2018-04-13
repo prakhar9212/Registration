@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5d919b1-1888-446f-992b-a819f075d1ab" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regiter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regiter/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regiter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regiter/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Regiter/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="35" column="71" lean-forward="true" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+              <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
@@ -178,7 +174,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="41" />
     <option name="y" value="1" />
     <option name="width" value="1322" />
@@ -215,12 +211,6 @@
               <item name="Regiter" type="462c0819:PsiDirectoryNode" />
               <item name="Profile" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Regiter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Regiter" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-              <item name="views.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="Regiter" type="b2602c69:ProjectViewProjectNode" />
@@ -589,7 +579,7 @@
     <entry file="file://$PROJECT_DIR$/Regiter/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="35" column="71" lean-forward="true" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
           </folding>
