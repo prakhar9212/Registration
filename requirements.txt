@@ -1,5 +1,5 @@
 
-pip install social-auth-app-django
+
 pip install certifi==2017.11.5
 
 pip install Django==1.11.7
