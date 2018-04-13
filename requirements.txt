@@ -97,7 +97,11 @@ pyflakes==1.6.0
 Pygments==2.2.0
 PyInstaller==3.2.1
 PyJWT==1.5.3
+<<<<<<< HEAD
 
+=======
+pyparsing==2.2.0
+>>>>>>> 771ee18770426355d320daeed2aaa07b302a2bf7
 
 python-dateutil==2.6.0
 python-mimeparse==1.6.0
