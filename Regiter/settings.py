@@ -148,3 +148,7 @@ LOGIN_REDIRECT_URL = 'home'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+SOCIAL_AUTH_GITHUB_KEY = '8eae6bae612d9c0ec236
+'
+
+SOCIAL_AUTH_GITHUB_SECRET = '56867859b46dcf6ab8a6f01cf353bbb42532bc60'

@@ -23,5 +23,8 @@
     </button>
   {% endbuttons %}
     <a href="{% url 'signup' %}">New to My Site? Sign up</a>
+
+  <p><strong>-- OR --</strong></p>
+  <a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
   </form>
 {% endblock %}
