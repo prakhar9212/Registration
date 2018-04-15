@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.sites',
+
     'django.contrib.messages',
     'django.contrib.staticfiles',
      'social_django',
@@ -149,6 +149,6 @@ LOGIN_REDIRECT_URL = 'home'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-SOCIAL_AUTH_GITHUB_KEY = '8eae6bae612d9c0ec236'
+SOCIAL_AUTH_GITHUB_KEY = '5964cc8aaaf8f32b12a6'
 
-SOCIAL_AUTH_GITHUB_SECRET = '56867859b46dcf6ab8a6f01cf353bbb42532bc60'
+SOCIAL_AUTH_GITHUB_SECRET = 'a28a05a249df8dd4772dec4c3cda550893c2dabd'
