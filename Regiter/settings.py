@@ -32,7 +32,6 @@ ALLOWED_HOSTS = ['127.0.0.1',
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -114,11 +113,15 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTHENTICATION_BACKENDS = (
+
     'social_core.backends.github.GithubOAuth2',
     'social_core.backends.twitter.TwitterOAuth',
     'social_core.backends.facebook.FacebookOAuth2',
-
+    'social_core.backends.open_id.OpenIdAuth',
+    'social_core.backends.google.GoogleOpenId',
+    'social_core.backends.google.GoogleOAuth2',
     'django.contrib.auth.backends.ModelBackend',
+
 )
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
@@ -150,10 +153,37 @@ LOGIN_REDIRECT_URL = 'home'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-SOCIAL_AUTH_GITHUB_KEY = '5964cc8aaaf8f32b12a6'
+SOCIAL_AUTH_GITHUB_KEY = 'f49f8badf5e33f68261b'
 
 
-SOCIAL_AUTH_GITHUB_SECRET = 'a28a05a249df8dd4772dec4c3cda550893c2dabd'
+SOCIAL_AUTH_GITHUB_SECRET = 'be365bee832c0153a9dce0f7b80def06ff50a53e'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='373996936933-rh4svd82qtnm1b6725red9rcotlh5ih0.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'PNyGcDJMUT0DV6YYApEBqFtJ'
 
 
-
+SOCIAL_AUTH_URL_NAMESPACE = 'social'
+SOCIAL_AUTH_PIPELINE = (
+    'social.pipeline.social_auth.social_details',
+    'social.pipeline.social_auth.social_uid',
+    'social.pipeline.social_auth.auth_allowed',
+    'social.pipeline.social_auth.social_user',
+    'social.pipeline.user.get_username',
+    'social.pipeline.user.create_user',
+    'social.pipeline.social_auth.associate_user',
+    'social.pipeline.debug.debug',
+    'social.pipeline.social_auth.load_extra_data',
+    'social.pipeline.user.user_details',
+    'social.pipeline.debug.debug',
+)
+SOCIAL_AUTH_GOOGLE_OAUTH2_IGNORE_DEFAULT_SCOPE = True
+SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
+'https://www.googleapis.com/auth/userinfo.email',
+'https://www.googleapis.com/auth/userinfo.profile'
+]
+# Google+ SignIn (google-plus)
+SOCIAL_AUTH_GOOGLE_PLUS_IGNORE_DEFAULT_SCOPE = True
+SOCIAL_AUTH_GOOGLE_PLUS_SCOPE = [
+'https://www.googleapis.com/auth/plus.login',
+'https://www.googleapis.com/auth/userinfo.email',
+'https://www.googleapis.com/auth/userinfo.profile'
+]
