@@ -38,7 +38,7 @@ django-sendsms==0.2.3
 django-sites-groups==0.1.2
 django-tastypie==0.14.0
 django-widget-tweaks==1.4.1
-djangorestframework==3.7.7
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 easy-thumbnails==2.3
 entrypoints==0.2.2
