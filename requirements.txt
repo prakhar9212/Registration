@@ -65,7 +65,7 @@ jupyter-console==5.1.0
 jupyter-core==4.3.0
 lpthw.web==1.1
 Markdown==2.6.11
-markdown2==2.3.5
+markdown2==2.4.0
 MarkupSafe==1.0
 matplotlib==2.0.2
 mccabe==0.6.1
